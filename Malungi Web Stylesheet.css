@@ -229,8 +229,8 @@ box-shadow: 0 8px 20px rgba(200, 0, 255, 0.8);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px;
-    gap: 40px;
+    padding: 10px;
+    gap: 20px;
 }
 
 nav img{
