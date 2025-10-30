@@ -2,13 +2,13 @@ html, body {
   margin: 0;
   padding: 0;
   min-height: 100%;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), #edc5ff);
+  background: linear-gradient(135deg, rgba(204, 204, 204, 0.8), #00307e);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   scroll-behavior: smooth;
-
 }
+
 .home-head-section{
  background-image: url('Malungi\ magazine\ cover.jpg'); 
   background-size: cover;
@@ -46,7 +46,7 @@ html, body {
 
 
 .welcome-text{
-  height: 600px; /* Adjust as needed */
+  height: 600px; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,12 +106,11 @@ html, body {
   left: 0;
   width: 100%;
   height: 100%;
-  pointer-events: none; /* Makes sure particles don’t interfere with clicks */
+  pointer-events: none;
   overflow: hidden;
   z-index: 0;
 }
 
-/* Floating particles container */
 .particle {
   position: absolute;
   border-radius: 50%;
@@ -121,7 +120,6 @@ html, body {
   z-index: 0;
 }
 
-/* Particle animation */
 @keyframes float {
   0% {
     transform: translateY(0);
@@ -148,10 +146,10 @@ section {
  }
 
 .header h1 {
-    color: #fff; 
-	font-family:'Algerian';
-    font-weight: bold;
-    font-size: 46px;
+  color: #b9b9b9; 
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 46px;
 	margin-bottom: 20px;
 			
     }
@@ -198,7 +196,7 @@ h4{
 
   h5{
           
-   color: #ffffff;
+   color: #000000;
    font-family:'Century' ;
    font-size: 38px;
    text-align: center;
