@@ -37,6 +37,8 @@ html, body {
 
 .header {
   margin-top: 10px; 
+  display: flex;
+  flex-direction: column;
 }
 
 .home-head-section > * {
